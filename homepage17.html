@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FoodLink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div class="logo">
+            <span>푸드링크</span>
+        </div>
+        <div id="address-input">
+            <input type="text" placeholder="배달 주소를 입력하세요">
+            <button>검색</button>
+        </div>
+        <div class="slogan">
+            <span>맛집을 한 단계 가까이, 푸드링크</span>
+        </div>
+        <div class="user-buttons">
+            <button id="loginButton">로그인</button>
+            <button id="signupButton">회원가입</button>
+        </div>
+    </div>
+
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="음식이나 가게를 검색하세요">
+        <button id="search-button">검색</button>
+    </div>
+
+    <div id="food-categories">
+        <div class="category-card">
+            <img src="분식.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%EB%B6%84%EC%8B%9D/">분식 🍱</a>
+        </div>
+        <div class="category-card">
+            <img src="야식.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%EC%B9%98%ED%82%A8/"> 야식 🍗</a>
+        </div>
+        <div class="category-card">
+            <img src="패스트푸드.jpg" alt="" >
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%ED%94%84%EB%9E%9C%EC%B0%A8%EC%9D%B4%EC%A6%88/"> 패스트푸드 🍔</a>
+        </div>
+        <div class="category-card">
+            <img src="양식.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%ED%94%BC%EC%9E%90%EC%96%91%EC%8B%9D/"> 양식 🍝</a>
+
+        </div>
+        <div class="category-card" >
+            <img src="일식.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%EC%9D%BC%EC%8B%9D%EB%8F%88%EA%B9%8C%EC%8A%A4/"> 일식 🍣</a>
+
+        </div>
+        <div class="category-card">
+            <img src="디저트.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%EC%B9%B4%ED%8E%98%EB%94%94%EC%A0%80%ED%8A%B8/"> 디저트 🍧</a>
+
+        </div>
+        <div class="category-card">
+            <img src="한식.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%ED%95%9C%EC%8B%9D/"> 한식 🍚</a>
+
+        </div>
+        <div class="category-card">
+            <img src="중식.jpg" alt="">
+            <a href="https://www.yogiyo.co.kr/mobile/#/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/000000/%EC%A4%91%EC%8B%9D/"> 중식 🥟</a>
+
+        </div>
+        <div class="category-card">
+            <img src="공지사항.jpg" alt="">
+            <span> 공지사항 </span>
+
+        <!-- 나머지 음식 카테고리 카드들 -->
+    </div>
+<script>
+    var loginButton = document.getElementById("loginButton");
+    var signupButton = document.getElementById("signupButton");
+
+    // 로그인 버튼 클릭 시 동작
+    loginButton.addEventListener("click", function() {
+        // login.html 페이지로 이동하기
+        window.location.href = "login.html";
+    });
+
+    // 회원가입 버튼 클릭 시 동작
+    signupButton.addEventListener("click", function() {
+        // signup.html 페이지로 이동하기
+        window.location.href = "signup.html";
+    });
+
+</script>
+
+<!-- ... 원본 소스코드 ... -->
+
+    </script>
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+    <style>
+        /* CSS 스타일 지정 */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            background-color: #FA0050;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 10px;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navbar .logo {
+            font-family: 'Lato', sans-serif;
+            font-size: 24px;
+            line-height: 1.5;
+            display: inline-block;
+        }
+
+        #navbar .slogan {
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            line-height: 1.2;
+        }
+
+        #navbar .user-buttons {
+            margin-right: 50px;
+        }
+
+        #navbar .user-buttons button {
+            margin-left: 10px;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            padding: 5px 10px;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 4px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        /* 검색창 스타일 지정 */
+        #search-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        #search-input {
+            padding: 13px;
+            width: 500px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        #search-button {
+            margin-left: 10px;
+            padding: 12px;
+            background-color: #FA0050;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        /* 배달 주소 검색창 스타일 지정 */
+        #address-input {
+            display: flex;
+            align-items: center;
+            margin-left: -450px;
+            margin-right: -450px;
+        }
+
+        #address-input input[type="text"] {
+            padding: 5px;
+            border: none;
+            border-radius: 4px;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin-right: 5px;
+            width: 200px;
+        }
+
+        #address-input button {
+            padding: 5px 10px;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 4px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        /* 음식 카테고리 스타일 지정 */
+        #food-categories {
+        position: relative; /* 상위 컨테이너를 기준으로 위치 설정 */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        .category-card {
+            width: 200px;
+            height: 200px;
+            background-color: #F2F2F2;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: absolute;
+        }
+    .category-card:nth-child(1) {
+        top: 0px; /* 첫 번째 카테고리의 y 좌표값 */
+        left: 600px; /* 첫 번째 카테고리의 x 좌표값 */
+    }
+
+    .category-card:nth-child(2) {
+        top: 0px; /* 두 번째 카테고리의 y 좌표값 */
+        left: 900px; /* 두 번째 카테고리의 x 좌표값 */
+    }
+    .category-card:nth-child(3) {
+        top: 0px; /* 첫 번째 카테고리의 y 좌표값 */
+        left: 1200px; /* 첫 번째 카테고리의 x 좌표값 */
+    }
+
+    .category-card:nth-child(4) {
+        top: 250px; /* 두 번째 카테고리의 y 좌표값 */
+        left: 600px; /* 두 번째 카테고리의 x 좌표값 */
+    }
+    .category-card:nth-child(5) {
+        top: 250px; /* 첫 번째 카테고리의 y 좌표값 */
+        left: 900px; /* 첫 번째 카테고리의 x 좌표값 */
+    }
+
+    .category-card:nth-child(6) {
+        top: 250px; /* 두 번째 카테고리의 y 좌표값 */
+        left: 1200px; /* 두 번째 카테고리의 x 좌표값 */
+    }
+    .category-card:nth-child(7) {
+        top: 500px; /* 첫 번째 카테고리의 y 좌표값 */
+        left: 600px; /* 첫 번째 카테고리의 x 좌표값 */
+    }
+
+    .category-card:nth-child(8) {
+        top: 500px; /* 두 번째 카테고리의 y 좌표값 */
+        left: 900px; /* 두 번째 카테고리의 x 좌표값 */
+    }
+    .category-card:nth-child(9) {
+        top: 500px; /* 첫 번째 카테고리의 y 좌표값 */
+        left: 1200px; /* 첫 번째 카테고리의 x 좌표값 */
+    }
+
+
+        .category-card:hover {
+            background-color: #E2E2E2;
+        }
+
+        .category-card img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .category-card span {
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            line-height: 1.2;
+            margin-top: 10px;
+        }
+    </style>

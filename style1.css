@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #FA0050;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #FA0050;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #FA0050;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #E60046;
+}
+
+.form-group .link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-group .link a {
+  display: block;
+  margin-bottom: 5px;
+  color: #FA0050;
+  text-decoration: none;
+}
+
+.back-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #FA0050;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+}
